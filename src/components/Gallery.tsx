@@ -8,21 +8,43 @@ interface GalleryImage {
 
 const Gallery: React.FC = () => {
   const images: GalleryImage[] = [
-    { id: 1, src: "/gallery/IMG-20250514-WA0059.jpg", alt: "Beautiful Janakpur temple architecture" },
-    { id: 2, src: "/gallery/IMG-20250514-WA0060.jpg", alt: "Traditional Mithila art and culture" },
-    { id: 3, src: "/gallery/IMG-20250514-WA0063.jpg", alt: "Sacred rituals at Janaki Temple" },
-    { id: 4, src: "/gallery/IMG-20250514-WA0064.jpg", alt: "Pilgrims visiting Janakpur heritage sites" },
-    { id: 5, src: "/gallery/IMG-20250514-WA0068.jpg", alt: "Cultural celebration in Janakpur" },
-    { id: 6, src: "/gallery/IMG-20250514-WA0069.jpg", alt: "Local Mithila artisan at work" },
-    { id: 7, src: "/gallery/IMG-20250514-WA0070.jpg", alt: "Scenic view of Janakpur city" },
-    { id: 8, src: "/gallery/WhatsApp Image 2025-06-24 at 15.48.56_3ea0f126.jpg", alt: "Traditional festival in Janakpur" },
-    { id: 9, src: "/gallery/WhatsApp Image 2025-06-24 at 15.48.56_5b0ea715.jpg", alt: "Group tour at heritage site" },
-    { id: 10, src: "/gallery/WhatsApp Image 2025-06-24 at 15.48.56_fee5fc37.jpg", alt: "Mithila painting workshop" },
-    { id: 11, src: "/gallery/WhatsApp Image 2025-06-24 at 15.48.57_c5afb367.jpg", alt: "Sacred pond and temple grounds" },
-    { id: 12, src: "/gallery/WhatsApp Image 2025-06-24 at 15.48.57_e872a22f.jpg", alt: "Cultural heritage tour experience" },
-    { id: 13, src: "/gallery/WhatsApp Image 2025-06-24 at 15.49.00_c20da5cb.jpg", alt: "Tourists exploring Janakpur" },
-    { id: 14, src: "/gallery/WhatsApp Image 2025-06-24 at 15.49.02_64607464.jpg", alt: "Local guide with visitors" },
-    { id: 15, src: "/gallery/WhatsApp Image 2025-06-24 at 15.49.03_7592727e.jpg", alt: "Traditional architecture and design" },
+    { id: 1, src: "/gallery/optimized/DJI_20250521124521_0080_D.webp", alt: "Beautiful Janakpur temple architecture" },
+    { id: 2, src: "/gallery/optimized/DSC00353.webp", alt: "Traditional Mithila art and culture" },
+    { id: 3, src: "/gallery/optimized/DSC00603.webp", alt: "Sacred rituals at Janaki Temple" },
+    { id: 4, src: "/gallery/optimized/DSC00657_copy.webp", alt: "Pilgrims visiting Janakpur heritage sites" },
+    { id: 5, src: "/gallery/optimized/DSC00661_copy.webp", alt: "Cultural celebration in Janakpur" },
+    { id: 6, src: "/gallery/optimized/DSC00685_copy.webp", alt: "Local Mithila artisan at work" },
+    { id: 7, src: "/gallery/optimized/DSC02366.webp", alt: "Scenic view of Janakpur city" },
+    { id: 8, src: "/gallery/optimized/DSC02408.webp", alt: "Traditional festival in Janakpur" },
+    { id: 9, src: "/gallery/optimized/DSC03364_copy.webp", alt: "Group tour at heritage site" },
+    { id: 10, src: "/gallery/optimized/DSC03366_copy.webp", alt: "Mithila painting workshop" },
+    { id: 11, src: "/gallery/optimized/DSC03369_copy.webp", alt: "Sacred pond and temple grounds" },
+    { id: 12, src: "/gallery/optimized/DSC03379_copy.webp", alt: "Cultural heritage tour experience" },
+    { id: 13, src: "/gallery/optimized/DSC03444_copy.webp", alt: "Tourists exploring Janakpur" },
+    { id: 14, src: "/gallery/optimized/DSC03453_copy.webp", alt: "Local guide with visitors" },
+    { id: 15, src: "/gallery/optimized/DSC2093.webp", alt: "Traditional architecture and design" },
+    { id: 16, src: "/gallery/optimized/DSC2249.webp", alt: "Traditional architecture and design" },
+    { id: 17, src: "/gallery/optimized/DSC_2077.webp", alt: "Traditional architecture and design" },
+    { id: 18, src: "/gallery/optimized/DSC_4986 (1).webp", alt: "Traditional architecture and design" },
+    { id: 19, src: "/gallery/optimized/DSC_7455.webp", alt: "Traditional architecture and design" },
+    { id: 20, src: "/gallery/optimized/DSC_7480.webp", alt: "Traditional architecture and design" },
+    { id: 21, src: "/gallery/optimized/DSC_7483.webp", alt: "Traditional architecture and design" },
+    { id: 22, src: "/gallery/optimized/DSC_7501.webp", alt: "Traditional architecture and design" },
+    { id: 23, src: "/gallery/optimized/DSC_7552 (1).webp", alt: "Traditional architecture and design" },
+    { id: 24, src: "/gallery/optimized/DSC_7564.webp", alt: "Traditional architecture and design" },
+    { id: 25, src: "/gallery/optimized/DSC_7589 (1).webp", alt: "Traditional architecture and design" },
+    { id: 26, src: "/gallery/optimized/DSC_7615.webp", alt: "Traditional architecture and design" },
+    { id: 27, src: "/gallery/optimized/DSC_9642.webp", alt: "Traditional architecture and design" },
+    { id: 28, src: "/gallery/optimized/DSC_9692.webp", alt: "Traditional architecture and design" },
+    { id: 29, src: "/gallery/optimized/IMG_0765.webp", alt: "Traditional architecture and design" },
+    { id: 30, src: "/gallery/optimized/IMG_0884(1).webp", alt: "Traditional architecture and design" },
+    { id: 31, src: "/gallery/optimized/IMG_20210603_013113 (2).webp", alt: "Traditional architecture and design" },
+    { id: 32, src: "/gallery/optimized/IMG_7898.webp", alt: "Traditional architecture and design" },
+    { id: 33, src: "/gallery/optimized/_DSC6302.webp", alt: "Traditional architecture and design" },
+    { id: 34, src: "/gallery/optimized/_DSC6345.webp", alt: "Traditional architecture and design" },
+    { id: 35, src: "/gallery/optimized/_DSC6359.webp", alt: "Traditional architecture and design" },
+    { id: 36, src: "/gallery/optimized/_DSC6366.webp", alt: "Traditional architecture and design" },
+    { id: 37, src: "/gallery/optimized/_DSC6995.webp", alt: "Traditional architecture and design" }
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -68,10 +90,6 @@ const Gallery: React.FC = () => {
         return newIndex > images.length - 3 ? 0 : newIndex;
       });
     }
-  };
-
-  const goToSlide = (index: number) => {
-    setCurrentIndex(index);
   };
 
   const openLightbox = (image: GalleryImage) => {
@@ -159,20 +177,6 @@ const Gallery: React.FC = () => {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>
           </button>
-
-          {/* Dots Indicator */}
-          <div className="flex justify-center mt-6 space-x-2">
-            {images.slice(0, images.length - 2).map((_, index) => (
-              <button
-                key={index}
-                onClick={() => goToSlide(index)}
-                className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                  currentIndex === index ? "bg-mithila-red scale-125" : "bg-gray-300 hover:bg-mithila-red/50"
-                }`}
-                aria-label={`Go to slide ${index + 1}`}
-              />
-            ))}
-          </div>
         </div>
 
         {/* Lightbox */}
